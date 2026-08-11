@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 if __name__ == "__main__":
     porta = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=porta)po
+    app.run(host="0.0.0.0", port=porta)
 
 # Nome do arquivo onde os links serão salvos
 ARQUIVO_BD = "links.json"
